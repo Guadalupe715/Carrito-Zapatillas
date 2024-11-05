@@ -1,0 +1,7 @@
+Config\aea.class
+Modelo\Carrito.class
+Controlador\ControladorIMG.class
+Config\Conexion.class
+Controlador\Controlador.class
+Modelo\Producto.class
+Modelo\ProductoDAO.class
