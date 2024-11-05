@@ -1,9 +1,5 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<<<<<<< HEAD
+<%@ taglib prefix="d" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
-=======
-<!doctype html>
->>>>>>> 1583c7ce412d04b4bcdc3fe166ec0528e4b4d9ea
 <html lang="es">
     <head>
         <meta charset="utf-8">
@@ -72,8 +68,8 @@
                             </tr>
                         </thead>
                         <tbody>
-<<<<<<< HEAD
-                        <c:forEach var="c" items="${carrito}">
+
+                        <d:forEach var="c" items="${carrito}">
                             <tr>
                                 <td>${c.getItem()}</td>
                                 <td>${c.getNombres()}</td>
@@ -91,20 +87,10 @@
                                       <br>
 
                                     <a class="btn btn-danger">Eliminar</a>
+                                    
                                 </td>
-=======
-                        <c:forEach var="car" items="${carrito}">
-                            <tr>
-                                <td>${car.getItem()}</td>
-                                <td>${car.getNombres()}</td>
-                                <td>${car.getDescripcion()}</td>
-                                <td>${car.getPrecio()}</td>
-                                <td>${car.getCantidad()}</td>
-                                <td>$car.getSubtotal</td>
-                                <td></td>
->>>>>>> 1583c7ce412d04b4bcdc3fe166ec0528e4b4d9ea
-                            </tr>
-                        </c:forEach>
+
+                        </d:forEach>
                             
                         </tbody>
                     </table>
@@ -118,19 +104,11 @@
                         </div>
                          <div class="card-body">
                              <label>Subtotal: </label>
-<<<<<<< HEAD
                              <input type="text" value="${total}" readonly="" class="form-control">
                               <label>Descuento: </label>
                              <input type="text" readonly="" class="form-control">
                               <label>Total Pagar: </label>
                              <input type="text" value="${total}" readonly="" class="form-control">
-=======
-                             <input type="text" readonly="" class="form-control">
-                              <label>Descuento: </label>
-                             <input type="text" readonly="" class="form-control">
-                              <label>Total Pagar: </label>
-                             <input type="text" readonly="" class="form-control">
->>>>>>> 1583c7ce412d04b4bcdc3fe166ec0528e4b4d9ea
                             </div>
                         <div class="card-footer">
                             <a href="#" class="btn btn-info btn-block">Realizar Pago</a>
@@ -145,4 +123,4 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
     </body>
-</html>
+    </html>

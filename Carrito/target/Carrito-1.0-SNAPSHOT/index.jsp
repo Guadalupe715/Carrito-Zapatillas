@@ -115,7 +115,7 @@
                                     <label> ${p.getDescripcion()} </label>
                                     <div>
                                         <a href="Controlador?accion=Agregar&id=${p.getId()}" class="btn btn-primary fas fa-shopping-cart">Agregar</a>
-                                        <a href="#"  class="btn btn-danger">Comprar</a>
+                                        <a href="Controlador?accion=Comprar&id=${p.getId()}"  class="btn btn-danger">Comprar</a>
                                     </div>
                                 </div>
                             </div>
